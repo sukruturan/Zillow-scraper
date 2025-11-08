@@ -23,7 +23,14 @@ It is designed to be **modular, reusable, and easy to adapt** to any product cat
 
 ## 📦 Requirements
 
-Install dependencies:
+# Install dependencies
+pip install requests beautifulsoup4 pandas openpyxl
+
+# Run scraper
+python ebay_scraper.py
+
+# Clean and export data
+python ebay_scraper_clean.py
 
 ``bash
 pip install requests beautifulsoup4 pandas
